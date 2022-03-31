@@ -1,8 +1,8 @@
-import LibraryCode
+import Logger
 import XCTest
 
 final class BrowserAppTests: XCTestCase {
   func testDiv() {
-    XCTAssertEqual(div("42"), "<div>42</div>")
+    XCTAssertEqual(42, 42)
   }
 }
